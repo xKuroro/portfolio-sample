@@ -1,0 +1,80 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body,html{
+    min-height: 100%;
+    width: 100%;
+    background: rgb(7,6,27);
+/* background: linear-gradient(90deg, rgba(7,6,27,1) 0%, rgba(9,9,121,0.5525560566023284) 40%, rgba(14,25,27,1) 100%); */
+}
+header{
+    display: block;
+    width: 80%;
+    height: 70px;
+    padding: 5px;
+    position: relative;
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    background: rgb(71,67,144);
+    background: linear-gradient(90deg, rgba(71,67,144,1) 0%, rgba(9,9,121,1) 35%, rgba(10,75,88,1) 100%);
+    color: white;
+}
+header nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* logo container */
+nav .logo-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+nav .visitors-icons{
+    width: 40%;
+    text-align: center;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.visitors-icons ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.visitors-icons ul li{
+    /* width: 100%;
+    height: 100%; */
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.visitors-icons ul li:hover{
+    cursor: pointer;
+}
+section{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+/* home sections */
+.intro{
+    color: white;
+}
+/* services section*/
+.services{
+    display: flex;
+    flex-direction: row;
+}
+.services .service{
+    
+}
